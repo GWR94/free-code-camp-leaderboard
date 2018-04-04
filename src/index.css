@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid lightgray;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+  border: 2px solid lightgray;
+  height: 45px;
+}
+
+tr:nth-child(even) {
+  background: rgb(228, 228, 228);
+}
+
+.points {
+  text-align: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  border: 2px solid green;
+  border-radius: 10px;
+  vertical-align: middle;  
+  margin: 0 5px;
+}
+
+.header {
+  background: green;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: hidden;
+  border-bottom: 2px solid lightgray;
+}
+
+.table {
+  margin: 30px auto;
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: rgb(85, 85, 255);
+}
